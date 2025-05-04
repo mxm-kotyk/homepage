@@ -3,11 +3,510 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <title>Résumé</title>
 </head>
 
 <body>
-  ― Hello World! &#x1F609;
+  <main>
+    <div class="resume">
+      <div class="container">
+        <div class="resume__block">
+          <h1 class="contact-info__header">Maksym Kotyk</h1>
+          <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+
+          <!-- Contact info section -->
+          <div class="contact_info_container fh">
+            <div class="contact-info__block">
+              <a href="" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
+                      192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                      13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                      80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <span>Rome, Italy</span>
+              </a>
+              <a href="mailto:mxm.kotyk@gmail.com" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                  </svg>
+                </div>
+                <span>mxm.kotyk@gmail.com</span>
+              </a>
+              <a href="https://t.me/Mxm_Ktk" target="_blank" rel="author noreferrer noopener"
+                class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480l0-83.6c0-4 1.5-7.8 4.2-10.8L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" />
+                  </svg>
+                </div>
+                <span>@Mxm_Ktk</span>
+              </a>
+            </div>
+
+            <div class="contact-info__block contact-info__block--center">
+              <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
+            </div>
+
+            <div class="contact-info__block">
+              <a href="https://www.linkedin.com/in/maksym-kotyk" target="_blank" rel="author noreferrer noopener"
+                class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
+                    480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
+                    416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9
+                    96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5
+                    38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9
+                    27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5
+                    62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                  </svg>
+                </div>
+                <span>Maksym Kotyk</span>
+              </a>
+              <a href="https://github.com/mxm-kotyk" target="_blank" rel="author noreferrer noopener"
+                class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                  </svg>
+                </div>
+                <span>Max Kotyk</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intro section -->
+      <div class="container">
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                  24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                  26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                  64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
+                  103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
+                  48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+              </svg>
+            </div>
+            <p class="intro_text">I'm Max - a full-stack developer who loves creating things that work and make sense. I
+              get a real kick out of solving
+              tricky problems and turning rough ideas into smooth, working apps. It's not always easy, but that's part
+              of the fun.
+              I've recently transitioned into tech, and I'm driven by curiosity, persistence, and the excitement of
+              building something
+              from nothing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills section -->
+      <div class="container">
+        <div class="resume__block">
+          <div class="skills fh">
+            <div class="skills__block">
+              <h3 class="skills__header">Tech Skills</h3>
+              <h4 class="skills__list-header">Frontend</h4>
+              <ul class="skills__list">
+                <li class="skills__list-item">HTML5, CSS3, SASS</li>
+                <li class="skills__list-item">Responsive and adaptive design</li>
+                <li class="skills__list-item">JavaScript (ES6+), React.js</li>
+                <li class="skills__list-item">React Hooks and Components</li>
+                <li class="skills__list-item">Redux, RTK Query, Zustand</li>
+                <li class="skills__list-item">Form handling with React Hook Form and Formik</li>
+                <li class="skills__list-item">Component styling with Emotion and Styled Components</li>
+              </ul>
+
+              <h4 class="skills__list-header">Backend</h4>
+              <ul class="skills__list">
+                <li class="skills__list-item">Node.js, Express.js, MongoDB</li>
+                <li class="skills__list-item">RESTful API development</li>
+                <li class="skills__list-item">Firebase (Authentication & Realtime Database basics)</li>
+              </ul>
+
+              <h4 class="skills__list-header">Tools</h4>
+              <ul class="skills__list">
+                <li class="skills__list-item">Git, GitHub, CLI, Git Bash</li>
+                <li class="skills__list-item">VS Code, Postman, Figma</li>
+              </ul>
+            </div>
+            <div class="skills__block">
+              <h3 class="skills__header">Soft Skills</h3>
+              <ul class="skills__list">
+                <li class="skills__list-item">Self-motivated and eager to learn</li>
+                <li class="skills__list-item">Fast learner with a curious mindset</li>
+                <li class="skills__list-item">Attention to detail</li>
+                <li class="skills__list-item">Good time-management and self-organization</li>
+                <li class="skills__list-item">Strong problem-solving mindset</li>
+                <li class="skills__list-item">Effective written communication</li>
+                <li class="skills__list-item">Adaptable and open to feedback</li>
+                <li class="skills__list-item">Growth-oriented and persistent</li>
+                <li class="skills__list-item">Able to work independently and in a team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects section -->
+      <div class="container">
+        <div class="resume__block projects">
+          <h3 class="projects__header">Projects</h3>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-6.jpg" alt="PowerPulse main page">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://alexgoit.github.io/project-V3w84M/welcome" target="_blank"
+                        rel="noreferrer noopener">
+                        Live page
+                      </a>
+                      <a class="project__link" href="https://github.com/AlexGoIT/project-V3w84M" target="_blank"
+                        rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">PowerPulse</h4>
+                    <span class="project__durability">Nov 2023 - Nov 2023</span>
+                    <p class="project__description">Fitness tracker web application developed using React. Key features
+                      include user authentication, protected routing, form validation, and personalized user profiles.
+                      Users can
+                      sign up, log in, update their profile, and add products and exercises to a personal diary to track
+                      calorie intake and
+                      expenditure. Each diary is private and accessible only to the respective user. Includes access to
+                      a shared database of
+                      products and exercises.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Team project</span>
+                      <span class="project__role">Project role: team lead of the frontend team</span>
+                    </div>
+                    <span class="project__responsibilities-title">Responsibilities</span>
+                    <ul class="project__responsibilities-list">
+                      <li>Sign in and Log In pages layout</li>
+                      <li>Authorization forms</li>
+                      <li>User profile form</li>
+                      <li>Forms for adding products and exercises to the diary</li>
+                      <li>Form validation</li>
+                      <li>Exercises page layout</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-5.jpg" alt="Express, Node.js, MongoDB">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://github.com/mxm-kotyk/contact-manager-rest-api"
+                        target="_blank" rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">Contact Manager REST API</h4>
+                    <span class="project__durability">Oct 2023 - Oct 2023</span>
+                    <p class="project__description">A RESTful API for managing user accounts and personal contact lists,
+                      built with Node.js, Express.js, and
+                      MongoDB.
+                      The API supports user registration, login/logout, email verification, and full CRUD operations on
+                      a user's personal
+                      contacts (similar to a phonebook). Email verification is sent upon registration. All contact
+                      operations require
+                      authentication.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Individual project</span>
+                      <span class="project__role">Project role: developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-4.jpg" alt="Phonebook main page">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://mxm-kotyk.github.io/Phonebook" target="_blank"
+                        rel="noreferrer noopener">
+                        Live page
+                      </a>
+                      <a class="project__link" href="https://github.com/mxm-kotyk/Phonebook" target="_blank"
+                        rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">Phonebook</h4>
+                    <span class="project__durability">Jun 2023 - Jun 2023</span>
+                    <p class="project__description">React web application for storing phone contacts. Features user
+                      authentication, routing, form validation, contacts creation, filtering and deletion. Users can
+                      register, log in, and create a personalized contacts list.
+                      Each user's contacts are accessible only to them.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Individual project</span>
+                      <span class="project__role">Project role: developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-3.jpg" alt="Filmoteka main page">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://serhiirepinskyi.github.io/filmoteka-team-project/"
+                        target="_blank" rel="noreferrer noopener">
+                        Live page
+                      </a>
+                      <a class="project__link" href="https://github.com/SerhiiRepinskyi/filmoteka-team-project"
+                        target="_blank" rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">Filmoteka</h4>
+                    <span class="project__durability">Apr 2023 - Apr 2023</span>
+                    <p class="project__description">An adaptive multipage website that provides information about movies
+                      using TMDB API. Additionally, we implemented
+                      Integration with Firebase Authentication for user registration and login, and integration with
+                      Firebase Database for
+                      user's movie library management.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Team project</span>
+                      <span class="project__role">Project role: developer</span>
+                    </div>
+                    <span class="project__responsibilities-title">Responsibilities</span>
+                    <ul class="project__responsibilities-list">
+                      <li>Firebase database and Authorization integration</li>
+                      <li>Authorization modal</li>
+                      <li>User's movies library management</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-2.jpg" alt="Ice Cream main page">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://mxm-kotyk.github.io/team-project-icecream/" target="_blank"
+                        rel="noreferrer noopener">
+                        Live page
+                      </a>
+                      <a class="project__link" href="https://github.com/mxm-kotyk/team-project-icecream" target="_blank"
+                        rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">Ice Cream</h4>
+                    <span class="project__durability">Dec 2022 - Jan 2023</span>
+                    <p class="project__description">An adaptive landing webpage with hamburger menu, various transition
+                      effects and
+                      animations, a slider and multiple modal windows with forms and iframes.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Team project</span>
+                      <span class="project__role">Project role: team lead</span>
+                    </div>
+                    <span class="project__responsibilities-title">Responsibilities</span>
+                    <ul class="project__responsibilities-list">
+                      <li>Code quality</li>
+                      <li>Header and Hero sections</li>
+                      <li>Mobile menu</li>
+                      <li>Various minor elements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="project">
+                  <div class="project__image-block">
+                    <img src="/assets/project-1.jpg" alt="Web Studio main page">
+                    <div class="project__links-block">
+                      <a class="project__link" href="https://mxm-kotyk.github.io/goit-markup-hw-08/" target="_blank"
+                        rel="noreferrer noopener">
+                        Live page
+                      </a>
+                      <a class="project__link" href="https://github.com/mxm-kotyk/goit-markup-hw-08" target="_blank"
+                        rel="noreferrer noopener">GitHub repository</a>
+                    </div>
+                  </div>
+                  <div class="project__description-block">
+                    <h4 class="project__title">WebStudio</h4>
+                    <span class="project__durability">Dec 2022 - Dec 2022</span>
+                    <p class="project__description">Multipage website with adaptive layout, hamburger menu, various
+                      transition effects and a modal window.</p>
+                    <div class="project__role-block">
+                      <span class="project__role">Individual project</span>
+                      <span class="project__role">Project role: developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="main-info fh">
+            <div class="experiences">
+
+              <!-- Work experience section -->
+              <h3 class="experiences__header">Work Experience</h3>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">
+                    Chernivtsi, Ukraine · Aug 2014 - Aug 2018
+                  </span>
+                  <h3 class="experiences__company-header-name">Shchedra Sadyba</h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">
+                    Sales Representative
+                  </span>
+                  <h4 class="experiences__company-project-responsibilities-header">
+                    Responsibilities
+                  </h4>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>
+                      Managed client relationships and served as the main point of contact in the assigned territory
+                    </li>
+                    <li>
+                      Assessed client needs and provided tailored product recommendations</li>
+                    <li>
+                      Processed orders, managed pricing, and monitored credit terms</li>
+                    <li>
+                      Managed the online store content: created product categories, uploaded product data, photos, and
+                      pricing to ensure
+                      accurate and up-to-date listings.
+                    </li>
+                    <li>
+                      Coordinated logistics to ensure timely and accurate deliveries
+                    </li>
+                  </ul>
+                  <h4 class="experiences__company-project-responsibilities-header">Achievements</h4>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>
+                      Brought in dozens of new clients, many of whom became loyal customers
+                    </li>
+                    <li>
+                      Expanded product distribution to new markets and regions</li>
+                    <li>
+                      Processed orders, managed pricing, and monitored credit terms
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">
+                    Chernivtsi, Ukraine · Sep 2011 – Aug 2014
+                  </span>
+                  <h3 class="experiences__company-header-name">
+                    Knyzhkovyy Supermarket – Bookstore
+                  </h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">
+                    Sales Assistant
+                  </span>
+                  <h4 class="experiences__company-project-responsibilities-header">Responsibilities</h4>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>
+                      Assisted customers in finding books and offered personalized recommendations
+                    </li>
+                    <li>
+                      Processed sales transactions and operated the cash register
+                    </li>
+                    <li>
+                      Maintained store appearance and restocked merchandise
+                    </li>
+                    <li>
+                      Helped with inventory control and incoming shipments
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Additional info section -->
+            <div class="additional-info fv">
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability"> 2022 – 2023 </span>
+                    <h3 class="additional-info__education-university-speciality">Full-Stack Development</h3>
+                    <p class="additional-info__education-university-name">GoIT Academy</p>
+                  </div>
+
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability"> 2007 – 2012 </span>
+                    <h3 class="additional-info__education-university-speciality">Bachelor, International Relations</h3>
+                    <p class="additional-info__education-university-name">Yuriy Fedkovych Chernivtsi National University
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainian - Native</p>
+                  <p class="additional-info__languages-item">English - Upper-Intermediate</p>
+                  <p class="additional-info__languages-item">Italian - Intermediate</p>
+                </div>
+
+                <div class="additional-info__hobbies">
+                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <p class="additional-info__hobbies-item">Book reading</p>
+                  <p class="additional-info__hobbies-item">Gaming</p>
+                  <p class="additional-info__hobbies-item">TV series watching</p>
+                  <p class="additional-info__hobbies-item">Traveling</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
