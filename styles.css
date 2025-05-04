@@ -52,7 +52,8 @@ body {
 @media screen and (max-width: 576px) {
 
   .main-info,
-  .contact_info_container {
+  .contact_info_container,
+  .skills {
     flex-direction: column;
   }
 
@@ -163,6 +164,28 @@ body {
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
+}
+
+.skills {
+  color: var(--secondary-text-color);
+  gap: 2rem;
+}
+
+.skills__block {
+  width: 50%;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.skills__list {
+  margin-bottom: 1rem;
+  padding-left: 20px;
+}
+
+.skills__list-header {
+  margin-bottom: 0.5rem;
 }
 
 .skills__header {
