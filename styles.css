@@ -199,6 +199,43 @@ body {
   text-align: justify;
 }
 
+/* Projects styles */
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--text-decoration-color);
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: var(--text-decoration-color);
+  opacity: 0.5;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: var(--text-decoration-color);
+  opacity: 1;
+}
+
 /* Experience and additional info styles */
 .experiences {
   flex: 1 1 60%;
