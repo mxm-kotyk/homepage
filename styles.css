@@ -220,8 +220,8 @@ body {
   object-fit: cover;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
   color: var(--text-decoration-color);
 }
 
