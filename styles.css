@@ -199,6 +199,111 @@ body {
   text-align: justify;
 }
 
+/* Projects styles */
+.projects {
+  color: var(--secondary-text-color);
+}
+
+.projects__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--text-decoration-color);
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: var(--text-decoration-color);
+  opacity: 0.5;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: var(--text-decoration-color);
+  opacity: 1;
+}
+
+.project {
+  padding: 40px;
+  display: flex;
+  gap: 24px;
+
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.project__image-block {
+  width: 40%;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.project__description-block {
+  width: 60%;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.project__links-block {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.project__link {
+  color: var(--secondary-text-color);
+  text-decoration-color: var(--text-decoration-color);
+}
+
+.project__title,
+.project__durability,
+.project__description {
+  margin-bottom: 8px;
+}
+
+.project__durability {
+  display: block;
+  color: var(--durability-text-color);
+  font-size: 15px;
+}
+
+.project__role-block {
+  margin-bottom: 8px;
+}
+
+.project__role {
+  display: block;
+}
+
+.project__responsibilities-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.project__responsibilities-list {
+  padding-left: 20px;
+}
+
 /* Experience and additional info styles */
 .experiences {
   flex: 1 1 60%;
