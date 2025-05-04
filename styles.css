@@ -57,11 +57,16 @@ body {
   }
 
   .contact_info_container {
-    align-items: center;
+    align-items: start;
   }
 
   .contact-info__block:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .contact-info__block--center {
+    align-self: center;
+    order: -1;
   }
 
   .experiences {
@@ -90,7 +95,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .contact-info__block--center {
